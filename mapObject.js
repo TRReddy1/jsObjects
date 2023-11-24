@@ -5,10 +5,10 @@ function mapObject(obj, cb) {
   let mapped = {};
 
   for (let key in obj) {
-    if (obj.hasOwnProperty(key)) {
-      let value = obj[key];
-      mapped[key] = cb(value);
-    }
+    // if (obj.hasOwnProperty(key)) {
+    let value = obj[key];
+    mapped[key] = cb(value);
+    //}
   }
   return mapped;
 }
