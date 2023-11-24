@@ -25,11 +25,6 @@ module.exports = testObject;
     When you are done, send the gitlab url to your mentor
 */
 
-function pairs(obj) {
-  // Convert an object into a list of [key, value] pairs.
-  // http://underscorejs.org/#pairs
-}
-
 /* STRETCH PROBLEMS */
 
 function invert(obj) {
